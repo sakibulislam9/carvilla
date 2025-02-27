@@ -59,11 +59,15 @@ fastapi/
 ├── backend_llm/        # LLM integration and processing logic
 ├── database/           # Database operations and queries
 ├── routes/             # API endpoints and routing definitions
-├── static/             # Static files (e.g., CSS, JS, images)
+├── static/             # Static files (e.g history.json, string_files)
 ├── templates/          # HTML templates for the frontend
 ├── images/             # Directory for stored images
 ├── chroma_db/          # Vector database storage using ChromaDB
+├── main.py             # Main Python Scripts
+├── gallery.py          # retrive data for gallery
+├── histroy.py          # To create the history.json for storage
 └── config.py           # Configuration settings
+
 ```
 
 ## 🚀 Running the Application
